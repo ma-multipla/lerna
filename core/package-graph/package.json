@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/prerelease-id-from-version": "file:../../utils/prerelease-id-from-version",
-    "@lerna/validation-error": "file:../validation-error",
+    "@lerna/prerelease-id-from-version": "workspace:*",
+    "@lerna/validation-error": "workspace:*",
     "npm-package-arg": "8.1.1",
     "npmlog": "^6.0.2",
     "semver": "^7.3.4"
